@@ -2,3 +2,6 @@
 image: node:22
 command: npm install && npm run build
 public: dist
+domains:
+  # Primary domain
+  - www.raiders.cl
