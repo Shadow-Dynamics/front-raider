@@ -1,4 +1,4 @@
 # Here is where the fun begins
-FROM node:lts AS build
-RUN npm i
-RUN npm run build
+image: node:22
+command: npm install && npm run build
+public: dist
